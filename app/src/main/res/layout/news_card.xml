@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:id="@+id/card"
+    android:layout_margin="15dp"
+    android:background="@drawable/card_background"
+    android:animateLayoutChanges="true">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/newsTextTV"
+        android:layout_gravity="center"
+        android:text="@string/lorem_ipsum"
+        android:textSize="20sp"
+        android:typeface="normal"
+        android:textColor="#212121"
+        android:paddingLeft="5dp"
+        android:paddingTop="2dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="2dp"
+        android:paddingEnd="5dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/newPic"
+        android:src="@mipmap/placeholder"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/imgDescpt"/>
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottomRL"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/favIB"
+                android:background="@mipmap/ic_action_important_dark"
+                android:layout_marginRight="25dp"
+                android:layout_marginEnd="25dp"
+                android:contentDescription="@string/favCD"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/shareIB"
+                android:background="@drawable/share_button"
+                android:layout_marginRight="30dp"
+                android:layout_marginEnd="30dp"
+                android:contentDescription="@string/shareCD"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/eventIB"
+                android:background="@drawable/event_button"
+                android:contentDescription="@string/eventCD" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:id="@+id/dateTV"
+            android:drawableRight="@mipmap/icon_site"
+            android:drawableEnd="@mipmap/icon_site"
+            android:drawablePadding="10dp"
+            android:text="@string/data_tweet"
+            android:textColor="#bbbbbb"
+            android:textSize="14sp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:gravity="center_vertical" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

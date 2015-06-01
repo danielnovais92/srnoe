@@ -1,0 +1,7 @@
+<!--suppress XmlUnboundNsPrefix, XmlUnboundNsPrefix -->
+<root>
+    <item
+        name='android.support.v7.app.AppCompatActivity android.support.v7.app.ActionBar getSupportActionBar()'>
+        <annotation name='android.support.annotation.NonNull' />
+    </item>
+</root>

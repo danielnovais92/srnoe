@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+   <!-- <item android:id="@+id/action_facebook"
+        android:icon="@mipmap/ic_facebook"
+        android:title="@string/action_facebook"
+        app:showAsAction="ifRoom"/>-->
+
+    <item android:id="@+id/action_contacts"
+        android:title="@string/action_contacts"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_shareapp"
+        android:title="@string/action_shareapp"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_sortby"
+        android:title="@string/action_sortby"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <!--<item android:id="@+id/action_about"
+        android:title="@string/action_about"
+        android:orderInCategory="100"
+        app:showAsAction="never" />-->
+
+</menu>

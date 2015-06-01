@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ly1"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Morada "
+                android:id="@+id/textView6"
+                android:textStyle="bold"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="R. Latino Coelho, nº 352 4000-314, Porto"
+                android:id="@+id/textView7"
+                android:padding="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Ver no Mapa:"
+                android:id="@+id/textView8"
+                android:textStyle="bold"
+                android:paddingLeft="10dp" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:layout_width="128dp"
+                    android:layout_height="128dp"
+                    android:id="@+id/mapsIB"
+                    android:src="@mipmap/ic_maps"
+                    android:background="@null"
+                    android:contentDescription="Abrir Mapas" />
+
+                <ImageButton
+                    android:layout_width="128dp"
+                    android:layout_height="128dp"
+                    android:id="@+id/fbBTN"
+                    android:src="@mipmap/facebook"
+                    android:background="@null"
+                    android:contentDescription="Abrir Página Facebook" />
+
+                <ImageButton
+                    android:layout_width="128dp"
+                    android:layout_height="128dp"
+                    android:id="@+id/bwBTN"
+                    android:src="@mipmap/browser"
+                    android:background="@null"
+                    android:contentDescription="Abrir Browser" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Coordenadas GPS"
+                android:id="@+id/textView9"
+                android:padding="10dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Latitude - 41º9&apos;35.94&quot;N"
+                android:id="@+id/textView10"
+                android:paddingLeft="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Longitude 8º 36&apos;8.69&quot;W"
+                android:id="@+id/textView12"
+                android:padding="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Contactos"
+                android:id="@+id/textView13"
+                android:padding="10dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Telf: 225 072 710"
+                android:id="@+id/textView14"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/teleIB"
+                android:padding="10dp"
+                android:src="@mipmap/ic_telephone"
+                android:background="@null"
+                android:contentDescription="Telefonar para SRNOE" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Fax: 225 072 719"
+                android:id="@+id/textView15"
+                android:paddingLeft="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Email Geral:"
+                android:id="@+id/textView16"
+                android:padding="10dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="srnorte@ordemenfermeiros.pt"
+                android:id="@+id/emailTV"
+                android:textStyle="normal"
+                android:paddingLeft="20dp"
+                android:clickable="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Email Gestão de membros:"
+                android:id="@+id/textView18"
+                android:padding="10dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="g.membrosnorte@ordemenfermeiros.pt"
+                android:id="@+id/membrosTV"
+                android:paddingLeft="20dp"
+                android:clickable="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="*clique no email para enviar."
+                android:id="@+id/textView20"
+                android:padding="10dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Horário de atendimento ao público"
+                android:id="@+id/textView21"
+                android:paddingLeft="10dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Seg. a Sex Feira das 9:00 às 17:30"
+                android:id="@+id/textView22"
+                android:padding="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Horário consultoria Jurídica  "
+                android:id="@+id/textView23"
+                android:paddingLeft="10dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A Secção Regional do Norte da Ordem dos Enfermeiros disponibiliza aos seus membros efetivos e com Cédula Profissional devidamente regularizada, o serviço de Consultoria Jurídica, na obtenção de esclarecimentos sobre direitos e deveres jurídicos enquanto profissional."
+                android:id="@+id/textView24"
+                android:padding="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Nota:"
+                android:id="@+id/textView26"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Todas as consultas (presenciais ou telefónicas) carecem de marcação prévia e síntese do assunto por e-mail ou fax. "
+                android:id="@+id/textView25"
+                android:paddingLeft="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Horário: "
+                android:id="@+id/textView27"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Terças-feiras das 14:30h às 17:30h."
+                android:id="@+id/textView28"
+                android:paddingLeft="10dp"
+                android:paddingBottom="20dp" />
+
+        </LinearLayout>
+</ScrollView>
